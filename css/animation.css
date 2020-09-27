@@ -1,0 +1,96 @@
+/* standart */
+a:focus,
+button:focus,
+input:focus {
+  outline: none;
+}
+
+/* intro */
+.header__item a:hover::before,
+.header__item a:focus::before {
+  width: 100%;
+}
+
+.intro__button-download:hover,
+.intro__button-download:focus,
+.intro__button-contact:hover,
+.intro__button-contact:focus {
+  background-color: #ffffff;
+  color: #233148;
+}
+
+/* about */
+.about__item:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 9px 10px black;
+}
+.about__item:hover .service__text {
+  color:black;
+}
+
+/* service */
+.service__button:hover,
+.service__button:focus {
+  background: #233148;
+  border-color: #233148;
+}
+
+.buttons__item:hover {
+  background: #33d2fd42;
+}
+
+.buttons__item:focus {
+  background:#33d2fda3;
+  transform:translateY(-10px);
+  box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1),
+  3px 5px 3px black;
+}
+
+/* download */
+.download__link:hover {
+  background: black;
+  transform: translateY(-3px);
+  box-shadow: 1px 1px 5px black;
+}
+
+.download__link:focus {
+  background:black;
+  transform:translateY(-10px);
+  box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1),
+  3px 5px 3px black;
+}
+
+.download__button:hover {
+  box-shadow: 0 11px 29px rgba(0, 0, 0, 0.5),
+  0 -11px 29px rgba(0, 0, 0, 0.5);
+}
+
+.download__button:focus {
+  box-shadow: 15px 15px 5px black;
+  transform: translateY(-15px) translateX(-50%);
+}
+
+/* links */
+
+.links__item:hover:before,
+.links__item:focus:before {
+  width: 100%;
+}
+
+.links__input-email:hover,
+.links__input-btn:hover {
+  box-shadow:3px 3px 5px black;
+  transform: translate(-3px, -3px);
+}
+
+.links__input-email:focus,
+.links__input-btn:focus {
+  box-shadow:8px 8px 2px black;
+  transform: translate(-3px, -3px);
+}
+
+/* footer */
+.footer__icon:hover path,
+.footer__icon:focus path {
+  fill: #33d2fd;
+}
